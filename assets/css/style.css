@@ -1,0 +1,125 @@
+/* universal selector */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* fonts */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap'); */
+
+/* a */
+
+a{
+    text-decoration: none;
+}
+
+/* colors */
+
+.light-blue_b-color{
+    background-color: #006971;
+}
+.light-blue-color{
+    color: #006971;
+}
+.dark-blue_b-color{
+    background-color: #004140;
+}
+.dark-blue-color{
+    color: #004140;
+}
+.orange_b-color{
+    background-color: #E28625;
+}
+.orange-color{
+    color: #E28625;
+}
+
+/* header section */
+
+.header{
+    height: 100vh;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-box_container{
+    width: 63.8%;
+    display: flex;
+}
+.header-boxes{
+    flex: 1;
+    padding: 48px 20px 48px 48px;
+    color: #F2F2F2;
+    position: relative;
+}
+.header-boxes .first-p{
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+}
+.header-boxes .second-p{
+    margin-top: 35px;
+    margin-bottom: 85px;
+    line-height: 25px;
+    font-family: 'Lexend Deca', sans-serif;
+    mix-blend-mode: normal;
+    font-weight: normal;
+    opacity: 0.75;
+    font-size: 15px;
+}
+/* learn more button */
+.learn-more{
+    width: 146px;
+    height: 48px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    border-radius: 24px;
+    position: absolute;
+    bottom: 48px;
+}
+/* boxes rounded corners */
+.header-box_container .right-rounded-corner{
+    border-radius: 15px 0 0 15px;
+}
+.header-box_container .left-rounded-corner{
+    border-radius: 0 15px 15px 0;
+}
+/* hover */
+.button_1:hover{
+    color: #F2F2F2;
+    
+}
+.button_1:hover .lm_button_1{
+    background-color: #E28625;
+    border: 2px solid #F2F2F2;
+}
+.button_2:hover{
+    color: #F2F2F2;
+    
+}
+.button_2:hover .lm_button_2{
+    background-color: #006971;
+    border: 2px solid #F2F2F2;
+}
+.button_3:hover{
+    color: #F2F2F2;
+    
+}
+.button_3:hover .lm_button_3{
+    background-color: #004140;
+    border: 2px solid #F2F2F2;
+}
